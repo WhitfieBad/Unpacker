@@ -1,0 +1,1 @@
+/usr/bin/clang -g CMakeFiles/Unpacker.dir/src/entry.c.o CMakeFiles/Unpacker.dir/src/zip.c.o CMakeFiles/Unpacker.dir/src/loader.c.o ../data/data.o -o Unpacker 

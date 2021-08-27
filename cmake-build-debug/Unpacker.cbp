@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Unpacker"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/loona/CLionProjects/Unpacker/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/loona/CLionProjects/Unpacker/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/loona/CLionProjects/Unpacker/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Unpacker">
+				<Option output="/home/loona/CLionProjects/Unpacker/cmake-build-debug/Unpacker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/loona/CLionProjects/Unpacker/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/clang/12.0.1/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 Unpacker"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Unpacker/fast">
+				<Option output="/home/loona/CLionProjects/Unpacker/cmake-build-debug/Unpacker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/loona/CLionProjects/Unpacker/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/clang/12.0.1/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 Unpacker/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/loona/CLionProjects/Unpacker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/loona/CLionProjects/Unpacker/data/data.o">
+			<Option target="Unpacker"/>
+		</Unit>
+		<Unit filename="/home/loona/CLionProjects/Unpacker/src/entry.c">
+			<Option target="Unpacker"/>
+		</Unit>
+		<Unit filename="/home/loona/CLionProjects/Unpacker/src/entry.h">
+			<Option target="Unpacker"/>
+		</Unit>
+		<Unit filename="/home/loona/CLionProjects/Unpacker/src/loader.c">
+			<Option target="Unpacker"/>
+		</Unit>
+		<Unit filename="/home/loona/CLionProjects/Unpacker/src/loader.h">
+			<Option target="Unpacker"/>
+		</Unit>
+		<Unit filename="/home/loona/CLionProjects/Unpacker/src/miniz.h">
+			<Option target="Unpacker"/>
+		</Unit>
+		<Unit filename="/home/loona/CLionProjects/Unpacker/src/zip.c">
+			<Option target="Unpacker"/>
+		</Unit>
+		<Unit filename="/home/loona/CLionProjects/Unpacker/src/zip.h">
+			<Option target="Unpacker"/>
+		</Unit>
+		<Unit filename="/home/loona/CLionProjects/Unpacker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
