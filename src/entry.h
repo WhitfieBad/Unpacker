@@ -4,13 +4,7 @@
 
 #ifndef UNPACKERARM_ENTRY_H
 #define UNPACKERARM_ENTRY_H
-
-#include <stdio.h>
-#include <bits/stdint-uintn.h>
-#include <malloc.h>
-#include <elf.h>
-
-#include "zip.h"
+#include "lib.h"
 #include "loader.h"
 #define JMP(addr) __asm__ __volatile__ ("jmp *%0"::"r"(addr))
 

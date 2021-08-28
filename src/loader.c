@@ -1,11 +1,8 @@
 //
 // Created by loona on 8/25/21.
 //
-
-#include <memory.h>
 #include <elf.h>
 #include "loader.h"
-
 
 void* load_elf(void *load_addr, void *mapped) {
     Elf64_Ehdr *ehdr = mapped;
