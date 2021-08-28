@@ -2,7 +2,6 @@
 // Created by loona on 8/22/21.
 //
 #include <link.h>
-#include <stdio.h>
 #include "entry.h"
 
 extern uint8_t _binary_a_out_start[];
